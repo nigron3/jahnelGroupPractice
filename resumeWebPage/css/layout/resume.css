@@ -1,21 +1,6 @@
-/*to do :
-replace icons in navigation
-
-*/
-nav.mainNavigation
-{
-	
-}
 
 
-
-.pageWrapper
-{
-	
-}
-
-
-/* attempt at fixed positioning
+/* attempt at fixed positioning the resume navigation 
 nav.resumeNav{
 	z-index: -1;
 	position:fixed;
@@ -24,6 +9,20 @@ nav.resumeNav{
 	margin-bottom: 500px;
 }
 */
+
+/* spacing fixes */
+
+.clearfix{
+	margin-bottom: 2em;
+}
+.bottomClearfix /*for fixed positioning */
+{
+	height:200px;
+}
+
+
+
+/* resume navigation */
 
 nav.resumeNav li{
 	
@@ -42,13 +41,7 @@ nav.resumeNav li a{
 	 /*list-style-type: square; /*place holder for replacing with icon */
 	 /*list-style-image: */
 }
-.clearfix{
-	margin-bottom: 2em;
-}
-.bottomClearfix
-{
-	height:200px;
-}
+
 
 .btnResumeNav{
 	margin-right: 1em;
@@ -81,7 +74,7 @@ nav.resumeNav li a{
 
 }
 
-	/*               tablets                   */
+	/*            phones                   */
 @media screen and (max-width: 768px) {
 
 

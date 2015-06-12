@@ -1,4 +1,4 @@
-
+/* spacing fixes */
 
 div.pageWrapper{
 	font-size: 20px;
@@ -8,11 +8,9 @@ div.clearfix{
 	margin-bottom: 2em;
 }
 
-nav.projectExampleTechnologyPillsNav li a{
-	padding:2px;
-	border-radius: 5px;
-}
 
+
+/* project example section */
 
 img.projectExampleDescriptionTitleImage{
 	margin-left: .2em;
@@ -21,6 +19,12 @@ img.projectExampleDescriptionTitleImage{
 	height:200px;
 
 }
+
+nav.projectExampleTechnologyPillsNav li a{
+	padding:2px;
+	border-radius: 5px;
+}
+
 
 img.projectExampleImageLaptop{
 	height:450px;
@@ -41,6 +45,13 @@ button.btnProjectExampleOpenWebsite{
 	margin-bottom: 1em;
 
 }
+
+.projectExampleDescriptionTitleImageContainer{
+	overflow: hidden;
+}
+
+
+/*recent projects section */
 
 .projectPreviewLeftDiv{
 	margin-bottom:20px;
@@ -64,6 +75,3 @@ hr.recentProjectsTitleHr{
 	margin-top:1em;
 }
 
-.projectExampleDescriptionTitleImageContainer{
-	overflow: hidden;
-}

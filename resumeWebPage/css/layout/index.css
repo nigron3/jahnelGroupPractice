@@ -1,5 +1,5 @@
 
-
+/* title section of page */
 
 
 header h1{
@@ -34,11 +34,28 @@ hr{
 
 
 
+/* developer  profile section*/
+
 
 .developerProfileContainer{
 	margin-top:.3em;
 
 }
+
+.developerTitleContainer{
+	margin-top: 20px;
+	text-align: center;
+}
+
+
+
+
+
+
+
+
+
+/* techonlogies graphic section*/
 
 .technologySkillSetContainer{
 	margin-top:3em;
@@ -59,28 +76,7 @@ hr{
 	margin-top: 1em;
 }
 
-.recentProjectDivContainer{
-	margin-top:1em;
-}
 
-
-
-
-.btnSeeAllTechnolgies{
-
-}
-
-
-
-
-.developerTitleContainer{
-	margin-top: 20px;
-	text-align: center;
-}
-
-.recentProjectsTitle{
-	text-align:center;
-}
 
 .technologySkillSetTitle{
 	text-align:center;
@@ -115,6 +111,18 @@ hr{
 	width:100%;
 }
 
+
+
+
+
+
+/* recent projects*/
+
+
+.recentProjectsTitle{
+	text-align:center;
+}
+
 .projectPreviewLeftDiv{
 
 	margin-right: 20px;
@@ -124,6 +132,11 @@ border-radius: 5px;
 .projectPreviewRightDiv{
 	height:200px;
 	border-radius: 5px;
+}
+
+
+.recentProjectDivContainer{
+	margin-top:1em;
 }
 
 
@@ -138,7 +151,7 @@ border-radius: 5px;
 
 }
 
-	/*               tablets                   */
+	/*               phones                  */
 @media screen and (max-width: 768px) {
 
 	header h1{
