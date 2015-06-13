@@ -10,6 +10,15 @@ nav.resumeNav{
 }
 */
 
+nav.resumeNav{
+	
+	position:fixed;
+	
+}
+
+
+
+
 /* spacing fixes */
 
 .clearfix{
@@ -25,7 +34,7 @@ nav.resumeNav{
 /* resume navigation */
 
 nav.resumeNav li{
-	
+	margin-left: 2em;
 	font-size:1.25em;
 	list-style-image: url();
 }

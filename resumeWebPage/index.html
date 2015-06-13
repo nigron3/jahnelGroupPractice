@@ -3,11 +3,12 @@
 		<link href="resources/bootstrap/css/bootstrap.css" rel="stylesheet"/> 
 		<link href="resources/bootstrap/js/bootstrap.js" rel="stylesheet"/> 
 		<link href="css/layout/index.css" rel="stylesheet"/> 
-		<link href="css/themes/theme.css" rel="stylesheet"></link>
+		<link href="css/themes/themeSepia.css" rel="stylesheet"></link>
 		<link href="css/layout/base.css" rel="stylesheet"/> 
 		<script src='resources/jquery/jquery.js'> </script>
 		<script src='resources/bootstrap/js/bootstrap.js'> </script>
 		<script src='js/contactForm.js'></script>
+		<script src='js/indexScrollButton.js'> </script>
 	</head>
 
 
@@ -61,7 +62,7 @@
 						<hr class=' hidden-xs hidden-sm col-md-offset-4 col-md-4 developerTownHr'>
 					</div>
 					<div class='row'>
-					<a href='#scrollDownAnchor'> <button class=' hidden-xs scrollDownButton'> <i class='glyphicon glyphicon-arrow-down'> </i>  </button> </a>
+					<a > <button  id= 'scrollDownButton' class=' hidden-xs scrollDownButton'> <i class='glyphicon glyphicon-arrow-down'> </i>  </button> </a>
 					</div>
 					
 				</div>
@@ -156,7 +157,7 @@
 					<div class='spacingFix col-xs-1 visible-xs pull-right'> 
 					</div>
 					<div class='btnhideContainer col-xs-1 pull-right col-md-offset-10 col-md-1'>
-						<a href='#topAnchor'><button class='btn btnTop'> <i class='glyphicon glyphicon-upload'> </i> </button></a> <span class='btnTopTitleSpan'>Top</span>
+						<a ><button   id='btnScrollTop' class='btn btnTop'> <i class='glyphicon glyphicon-upload'> </i> </button></a> <span class='btnTopTitleSpan'>Top</span>
 					</div>
 					
 				</div>
@@ -176,7 +177,7 @@
 						 		<div class='row'>
 							 		<div class='contactFormContainer col-sm-11'>
 
-							 			<form class='contactForm '>
+							 			<form class='contactForm ' action="MAILTO:nigron3@gmail.com" method="post" enctype="text/plain">
 							 			<div class='textInputContainer col-xs-12 col-sm-12 col-md-6 text-left pull-right'>
 							 					<textarea id='contactFormUsertextInput' class='contactFormUsertextInput' type='text'> </textarea>
 							 			</div>
@@ -191,7 +192,7 @@
 													<span class=' col-xs-4'> 4+4 </span>	
 													<input type ='text'  id='robocheckTextInput' class='robocheck  col-xs-2 ' size='2' > 
 													
-							 						<button id='btnContactFormSubmit' class=' btn btnContactFormSubmit col-xs-3  pull-right ' type='button' value='Submit'> Submit</button>
+							 						<button id='btnContactFormSubmit' class=' btn btnContactFormSubmit col-xs-3  pull-right ' type='submit' value='Submit'> Submit</button>
 							 						
 							 					</div>
 							 				</div>

@@ -89,6 +89,7 @@ hr.bottomHr{
 	display:block;
   	overflow:hidden;
   	height:200px;
+  	resize: none;
 	
 }
 
