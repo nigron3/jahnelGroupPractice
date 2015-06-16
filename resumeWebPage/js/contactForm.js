@@ -3,7 +3,34 @@ $(document).ready(function(){
 
 	$('#btnHide').click(toggleFooter);
 
+	$('form').submit(function(){
+
+		if($('#robocheckTextInput').val()=='8'){
+			alert('ok');
+			return true;
+		}
+		else
+		{
+			alert($('#robocheckTextInput').val());
+			return false;
+		}
+
+
+	});
+
 	$('form').on('click', 'input[type=text]', function(){ $(this).val('');});
+
+	$('form').on('click', 'textarea', function(){
+	
+
+	if($(this).text()=="What's on your mind?")
+		{
+			
+			$(this).html(' ');
+		}
+		
+
+	});
 
  	$('#btnScrollTop').click(scrollToTop);
 
@@ -23,10 +50,12 @@ function toggleFooter(){
 		
 	}
 	else{
-		$('footer').slideUp('slow');
-		$('footer').addClass('hidden');
+		//$('footer').slideUp('slow'  );
+		scrollToBottom();
+		
 		$('#btnHideTitleSpan').text('Contact');
 		$('#btnHide').html('+');
+		$('footer').addClass('hidden');
 	}
 }
 
@@ -40,5 +69,12 @@ function scrollToTop() {
 	{
 	  body.animate({scrollTop:0}, '500');
 	}
+
+}
+
+function scrollToBottom() {
+
+
+	$("html, body").animate({ scrollTop: $('footer').offset().top + 500}, '2000');
 
 }

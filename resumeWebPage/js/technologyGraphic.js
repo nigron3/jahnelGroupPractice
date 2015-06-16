@@ -9,25 +9,25 @@ $('#technologySkillSetGraphicContainer').on('click', '.technologySkillSetGraphic
 
 function veiwUIPills() {
 
-	$('#yellowcog').removeClass('active');
-	$('#bluecog').removeClass('active');
-	$('#redcog').addClass('active');
+	$('#databaseCog').removeClass('active');
+	$('#midTierCog').removeClass('active');
+	$('#uiCog').addClass('active');
 	$('#technologyPillsUL li').each(changePillsToUI);
-	//AnimateRotate('#redcog');
+	//AnimateRotate('#uiCog');
 
 }
 
 function viewMidTier(){
-	$('#bluecog').addClass('active');
-	$('#redcog').removeClass('active');
-	$('#yellowcog').removeClass('active');
+	$('#midTierCog').addClass('active');
+	$('#uiCog').removeClass('active');
+	$('#databaseCog').removeClass('active');
 	$('#technologyPillsUL li').each(changePillsToMidTier);
 }
 
 function veiwDatabase(){
-	$('#yellowcog').addClass('active');
-	$('#bluecog').removeClass('active');
-	$('#redcog').removeClass('active');
+	$('#databaseCog').addClass('active');
+	$('#midTierCog').removeClass('active');
+	$('#uiCog').removeClass('active');
 	
 	$('#technologyPillsUL li').each(changePillsToDatabase);
 }

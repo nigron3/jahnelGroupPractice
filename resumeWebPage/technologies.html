@@ -4,12 +4,12 @@
 		<link href="resources/bootstrap/css/bootstrap.css" rel="stylesheet"/> 
 		<link href="css/layout/base.css" rel="stylesheet"/> 
 		<link href="css/layout/technologies.css" rel="stylesheet"/> 
-		<link href="css/themes/themeSepia.css" rel="stylesheet"></link>
 		<script src='resources/jquery/jquery.js'> </script>
 		<script src='resources/bootstrap/js/bootstrap.js'> </script>
 		<script src='js/contactForm.js'></script>
 		<script src='js/technologyGraphic.js'> </script>
 		<script src='js/technologyPillsNav.js'></script>
+		<script src='js/changeTheme.js'> </script>
 	</head>
 
 	<body>
@@ -18,6 +18,9 @@
 		<div class='navbar'>
 			<div class='container'>
 				<nav class='mainNavigation '>
+					<button type='button' id = 'btnTheme' > Dark Theme </button>
+					<button type='button' id = 'btnTheme2' > Light Theme </button>
+					<button type='button' id = 'btnTheme3' > Sepia Theme </button>
 					<button type='button' class='navbar-toggle pull-left' data-toggle="collapse" data-target=".navHeaderCollapse"> <span class='sr-only'> toggle navigation </span>
 
 
@@ -64,9 +67,9 @@
 			
 				<!--place holder for dimond graphics need to work on centering -->
 				<div class ='row span4 text-center technologySkillSetDimondGraphicContainer hidden-xs hidden-sm'>
-					<div class='col-md-4 '>  <span> <i  id='redcog' class='glyphicon glyphicon-cog redcog active'></i> </span> </div>
-					<div class='col-md-4'>  <span> <i id='bluecog' class='glyphicon glyphicon-cog bluecog'></i> </span>  </div>
-					<div class='col-md-4'>   <span> <i id='yellowcog' class='glyphicon glyphicon-cog yellowcog'></i> </span>  </div>
+					<div class='col-md-4 '>  <span> <i  id='uiCog' class='glyphicon glyphicon-cog uiCog active'></i> </span> </div>
+					<div class='col-md-4'>  <span> <i id='midTierCog' class='glyphicon glyphicon-cog midTierCog'></i> </span>  </div>
+					<div class='col-md-4'>   <span> <i id='databaseCog' class='glyphicon glyphicon-cog databaseCog'></i> </span>  </div>
 				</div>
 			</section>
 
@@ -93,7 +96,9 @@
 							<h2 class='technologyExampleTitle'> Example Name</h2>
 						</div>	
 						<div class='row exampleCodeContainer'>
-							<span class='codeExampleView'> </span>
+							<span class='codeExampleView'> 
+								<img src ='img/codeExample.png'/>
+							</span>
 						</div>
 						<div class='row codeExampleButtonContainer'>
 							<button class='btn btnCodeExampleViewDemo col-md-offset-5 col-md-3'> View Demo</button>
@@ -142,7 +147,7 @@
 
 						 			<form class='contactForm '>
 						 			<div class='textInputContainer col-xs-12 col-sm-12 col-md-6 text-left pull-right'>
-						 					<textarea id='contactFormUsertextInput' class='contactFormUsertextInput' type='text'> </textarea>
+						 					<textarea id='contactFormUsertextInput' class='contactFormUsertextInput'  type='text'>What's on your mind?</textarea>
 						 			</div>
 						 				<div class='userInfoContainer col-sm-6 col-sm-offset-6 col-md-offset-0'>
 						 					<div class='row'>
@@ -154,7 +159,7 @@
 						 					<div class='row '>
 						 						
 												
-												<span class=' col-xs-4'> 4+4 </span>	
+												<span class=' col-xs-4'> 4+4= </span>	
 												<input type ='text'  id='robocheckTextInput' class='robocheck  col-xs-2 ' size='2' > 
 												
 						 	

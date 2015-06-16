@@ -320,29 +320,29 @@ hr.exampleDescriptionTitleHr{
 	
 }
 
-.#EFBA61cog{
+.uiCog{
 	color:#EFBA61;
 	opacity: .3;
 }
-.#EFBA61cog.active{
+.uiCog.active{
 	
 	opacity: 1;
 }
 
-.redcog{
+.midTierCog{
 	color:red;
 	opacity: .3;
 }
-.redcog.active{
+.midTierCog.active{
 	
 	opacity: 1;
 }
 
 
-.#FFCF7Ccog{
+.databaseCog{
 	opacity: .3;
 }
-.#FFCF7Ccog.active{
+.databaseCog.active{
 	
 	opacity: 1;
 }

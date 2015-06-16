@@ -47,12 +47,14 @@ section.technologiesExamplesSection{
 	border-top-right-radius: 5px;
 }
 
-.redcog{
+
+
+.uiCog{
 	padding-left:3em;
 }
 
 
-.yellowcog{
+.databaseCog{
 padding-right:3em;
 }
 
@@ -101,6 +103,12 @@ hr.exampleDescriptionTitleHr{
 	width: 100%;
 	height: 100px;
 }
+
+.codeExampleView img{
+	width:100%;
+	height:100%;
+}
+
 
 
 

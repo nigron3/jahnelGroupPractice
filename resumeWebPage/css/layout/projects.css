@@ -16,7 +16,7 @@ img.projectExampleDescriptionTitleImage{
 	margin-left: .2em;
 	margin-right: none;
 	padding: 1.5em;
-	height:200px;
+
 
 }
 
@@ -27,11 +27,11 @@ nav.projectExampleTechnologyPillsNav li a{
 
 
 img.projectExampleImageLaptop{
-	height:450px;
+	
 	
 }
 img.projectExampleImageMobile{
-	height:400px;
+	
 	
 }
 
@@ -56,12 +56,14 @@ button.btnProjectExampleOpenWebsite{
 .projectPreviewLeftDiv{
 	margin-bottom:20px;
 	margin-right: 20px;
+	padding:0;
 	height:200px;
 	border-radius: 5px;
 }
 .projectPreviewRightDiv{
 	height:200px;
 	border-radius: 5px;
+	padding:0;
 }
 
 hr.recentProjectsTitleHr{
@@ -75,3 +77,9 @@ hr.recentProjectsTitleHr{
 	margin-top:1em;
 }
 
+.recentProjectDivContainer img{
+	margin:0;
+	padding:0;
+	width:100%;
+	height:100%;
+}

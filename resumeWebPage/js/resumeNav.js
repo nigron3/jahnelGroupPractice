@@ -3,8 +3,8 @@ $(document).ready(function(){
 
 
 	var techSkills = $("#technicalSkillsAnchor").offset().top -10.0;
-	var experience = $('#experienceAnchor').offset().top -10.0;
-	var reference = $('#referencesAnchor').offset().top -100.0;
+	var experience = $('#experienceAnchor').offset().top -50.0;
+	var reference = $('#referencesAnchor').offset().top + 500 ;
 
 		if($(this).scrollTop() > reference)
     {   

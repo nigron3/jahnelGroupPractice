@@ -19,9 +19,12 @@ color:rgba(0,0, 255,0);
 
 */
 
+@import url(http://fonts.googleapis.com/css?family=Arimo);
+
 body{
 	background-color:black;
 	font-size: 24px;
+	font-family: 'Arimo', sans-serif;
 }
 
 .navbar-toggle{
@@ -317,29 +320,29 @@ hr.exampleDescriptionTitleHr{
 	
 }
 
-.redcog{
+.uiCog{
 	color:red;
 	opacity: .3;
 }
-.redcog.active{
+.uiCog.active{
 	
 	opacity: 1;
 }
 
-.bluecog{
+.midTierCog{
 	color:blue;
 	opacity: .3;
 }
-.bluecog.active{
+.midTierCog.active{
 	
 	opacity: 1;
 }
 
 
-.yellowcog{
+.databaseCog{
 	opacity: .3;
 }
-.yellowcog.active{
+.databaseCog.active{
 	
 	opacity: 1;
 }
