@@ -1,0 +1,396 @@
+/* list of colors 
+#FFEEBC
+black
+#FFCF7C
+red
+#EFBA61
+grey
+
+rgba()
+
+rgba(239,186, 97, .3);
+background-color: rgba(239,186, 97,.2);
+background-color:rgba(239,186, 97, .5);
+background-color:rgba(255,0,0, .5);
+background-color:rgba(255,207, 124, .5);
+background-color: rgba(255,0,0,.2);
+color:rgba(255,0,0,0);
+
+
+
+*/
+@import url(http://fonts.googleapis.com/css?family=Abril+Fatface);
+
+body{
+	background-color:#FFEEBC;
+	font-size: 24px;
+	font-family: 'Abril Fatface', cursive;
+}
+
+.navbar-toggle{
+	border:1px solid black;
+}
+
+.navbar-toggle span{
+	color:#FFEEBC;
+}
+
+.glyphicon-cog{
+	color:#FFCF7C;
+}
+
+
+h1{
+	color:black;
+}
+
+h2{
+	color:black;
+}
+
+h3{
+	color:black;
+}
+
+p{
+	color:black;
+}
+
+a{
+	color:black;
+}
+
+span{
+	color:black;
+}
+
+button, button.btn{
+	background-color: rgba(239,186, 97, .3);
+	color:black;
+	border:1px solid #EFBA61;
+}
+
+
+nav.mainNavigation a:hover{
+	background-color:#FFEEBC;
+}
+
+.footerContainer
+{
+	background-color:#E9E4DC;
+}
+
+.contactFormContainer
+{
+	border:2px solid #EFBA61;
+
+}
+
+hr.contactFormHr{
+	color:black;
+	border-color:black;
+}
+
+.contactForm input[type=text]
+{
+	background-color: rgba(239,186, 97,.2);
+}
+
+#contactFormUsertextInput{
+
+	background-color: rgba(255,0,0,.2);
+}
+
+hr.bottomHr{
+	color:black;
+}
+
+
+
+/* specific to top navbar */
+nav.mainNavigation li.active.navIndexLi{
+	border-bottom: 5px solid #EFBA61;
+}
+
+nav.mainNavigation li.active.navResumeLi{
+
+	border-bottom: 5px solid red;
+}
+
+nav.mainNavigation li.active.navTechnologiesLi{
+	border-bottom: 5px solid #FFCF7C;
+}
+
+
+
+
+nav.mainNavigation li.active.navProjectsLi{
+	border-bottom: 5px solid black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* specific to index page with some content in projects as well as technologies */
+
+
+span.btnTopTitleSpan{
+	color:black;
+}
+
+button.scrollDownButton{
+	background-color: rgba(255,0,0,.2);
+	border: 1px solid red;
+	
+}
+
+hr.portfolioTitleHr
+{
+	color:#EFBA61; /*for IE*/
+	border-color:#EFBA61; /* for other browsers*/
+}
+
+
+
+hr.developerNameHr{
+	color:#FFCF7C;
+	border-color:#FFCF7C;
+}
+
+hr.developerTownHr{
+	color:red;
+	border-color:red;
+}
+
+hr.developerProfileTextTitleHr{
+	color:red;
+	border-color:red;
+}
+
+
+
+
+hr.technologySkillSetTitleHr{
+	color:#FFCF7C;
+	border-color:#FFCF7C;
+}
+
+hr.recentProjectsTitleHr{
+	color:#FFCF7C;
+	border-color: #FFCF7C;
+}
+
+
+.technologySkillSetGraphicUserInterfaceDiv{
+
+	background-color:rgba(239,186, 97, .5);
+	border-top: 2px solid #EFBA61;
+	border-left:2px solid #EFBA61;
+	border-bottom: 2px solid #EFBA61;
+	border-right: 2px solid #FFEEBC; /*might not need*/
+
+	
+}
+
+.technologySkillSetGraphicMidTierDiv{
+
+	background-color:rgba(255,0,0, .5);
+	border-top: 2px solid red;
+	border-bottom: 2px solid red;
+	border-right: 2px solid #FFEEBC; /*might not need*/
+}
+
+
+.technologySkillSetGraphicDatabaseDiv{
+	
+	background-color:rgba(255,207, 124, .5);
+	border-top: 2px solid #FFCF7C;
+	border-bottom: 2px solid #FFCF7C;
+	border-right: 2px solid #FFCF7C; /*might not need*/
+	
+}
+
+.projectPreviewLeftDiv{
+	border: 2px solid red;
+}
+
+.projectPreviewRightDiv{
+	border: 2px solid red;
+}
+
+
+
+
+/*      specific to resume page */
+
+.btnResumeNav{
+
+	background-color: rgba(255,0,0,.2);
+	border: 1px solid red;
+	color:rgba(255,0,0,0);
+}
+
+li.active .btnResumeNav{
+	color:black;
+}
+
+
+hr.resumeContentHr
+{
+	color:#EFBA61;
+	border-color:#EFBA61;
+}
+
+h4.resumeContentHeaderTitle{
+	color:red;
+}
+
+h3.resumeContentSectionTextTitle{
+	color:#FFCF7C;
+}
+
+
+
+/*  specific to projects page */
+
+nav.projectExampleTechnologyPillsNav li a{
+	color:black;	
+	background-color:rgba(255,0,0, .2);
+	border:solid 2px red;
+}
+
+
+
+span.projectExampleDescriptionTitleImageVerticalLine{
+	color:#FFCF7C;
+}
+
+
+
+
+/* specific to technologies page */
+
+
+
+nav.tenologiesUserInterfaceNav li a{
+	color:black;
+	background-color:rgba(239,186, 97, .2);
+	border:solid 2px #EFBA61;
+}
+
+hr.exampleDescriptionTitleHr{
+	color:#EFBA61;
+	border-color: #EFBA61;
+}
+
+
+
+.exampleAreaTitleContainer h1{
+	color:black;
+}
+.exampleAreaTitleContainer h2{
+	color:black;
+}
+
+.exampleAreaTitleContainer span{
+	color:red;
+}
+
+.exampleCodeContainer{
+
+	border:2px solid #EFBA61;
+
+
+}
+
+.exampleDescriptionTextFooterDiv{
+	background-color:rgba(255,0,0,.2);
+	border: 1px solid red;
+	
+}
+
+.uiCog{
+	color:#EFBA61;
+	opacity: .3;
+}
+.uiCog.active{
+	
+	opacity: 1;
+}
+
+.midTierCog{
+	color:red;
+	opacity: .3;
+}
+.midTierCog.active{
+	
+	opacity: 1;
+}
+
+
+.databaseCog{
+	opacity: .3;
+}
+.databaseCog.active{
+	
+	opacity: 1;
+}
+
+#technologyPillsUL li.ui a{
+	background-color:rgba(239,186, 97, .2);
+	border-color:#EFBA61;
+
+
+}
+
+#technologyPillsUL li.midTier a{
+	background-color:rgba(255,0,0, .2);
+	border-color:red;
+}
+
+#technologyPillsUL li.database a{
+	background-color:rgba(255,255,0, .2);
+	border-color:#FFCF7C;
+}
+
+
+
+
+
+
+
+
+/*               tablets                   */
+@media screen and (max-width: 992px) {
+
+	body{
+		font-size:16px;
+	}
+
+
+
+
+}
+
+	/*               tablets                   */
+@media screen and (max-width: 768px) {
+
+	body{
+		font-size:14px;
+	}
+
+
+
+
+}
