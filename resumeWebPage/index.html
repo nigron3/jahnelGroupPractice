@@ -3,11 +3,15 @@
 		<link href="resources/bootstrap/css/bootstrap.css" rel="stylesheet"/> 
 		<link href="css/layout/index.css" rel="stylesheet"/> 
 		<link href="css/layout/base.css" rel="stylesheet"/> 
+		
 		<script src='resources/jquery/jquery.js'> </script>
 		<script src='resources/bootstrap/js/bootstrap.js'> </script>
+		<script src ='resources/lightbox/js/jquery-1.11.0.min.js'></script>
+		<script src ='resources/lightbox/js/lightbox.min.js'></script>
 		<script src='js/contactForm.js'></script>
-		<script src='js/indexScrollButton.js'> </script>
+		<script src='js/indexScrollButton.js'> </script>	
 		<script src='js/changeTheme.js'> </script>
+		<link href="resources/lightbox/css/lightbox.css" rel="stylesheet">
 	</head>
 
 
@@ -76,7 +80,7 @@
 				<a name='scrollDownAnchor'></a>
 				<div class='row developerProfileContainer'>
 					<div class='developerProfileImageContainer col-xs-offset-2 col-xs-8    col-sm-offset-1 col-sm-4'>
-						<img src='img/me.jpg' class='devloperProfileImage' />
+						<a class='wb-lbx' href='img/me.jpg'   rel="lightbox" data-lightbox="developerProfileImage" data-title="caption1"><img src='img/me.jpg' class='devloperProfileImage' /></a>
 					</div>
 					<div class='developerProfileText col-sm-offset-1 col-sm-6  '>
 						<div class='row hidden-xs'>
@@ -139,18 +143,21 @@
 
 				<div class='row recentProjectDivContainer'>
 					<div class='projectPreviewLeftDiv col-xs-offset-3 col-xs-6 col-sm-offset-2 col-sm-4  ccol-md-offset-2 col-md-4'>
-						<img src ='img/exampleProjectLaptop.png' />
+						<a href="img/exampleProjectLaptop.png" rel="lightbox" data-lightbox="recentProjectLeftImg"data-title="Mit Example" ><img src ='img/exampleProjectLaptop.png' /></a>
 					</div>
 					<div class='projectPreviewRightDiv hidden-xs col-xs-offset-3 col-xs-6 col-sm-offset-0 col-sm-4 '>
-						<img src ='img/codeExample.png' />
+						<a href="img/codeExample.png" rel="lightbox" data-lightbox="recentProjectRightImg"data-title="code example" ><img src ='img/codeExample.png' /></a>
 					</div>
 				</div>
 
 							
 				<div class='row span2 text-center'> <!--class for centring button-->
 					<div class='btnSeeAllProjectsContainer col-md-offset-5 col-md-2'>
-						<a href='projects.html'><button class='btn btnSeeAllProjects'> See All Projects >> </button> </a>
+						<a href="img/exampleProjectLaptop.png" data-lightbox="recentProjects"><button class='btn btnSeeAllProjects'> See All Projects >> </button> </a>
 					</div>
+					<div class='hidden recent projects box'>
+						<a href="img/codeExample.png" rel="lightbox" data-lightbox="recentProjects" data-title="<a href='google.com'> google </a>"> </a>
+						</div>
 				</div>
 			</section>
 
