@@ -69,6 +69,11 @@ button, button.btn{
 	color:white;
 	border:1px solid red;
 }
+button:hover, button.btn:hover{
+	background-color: rgba(255,0,0, .7);
+	color:black;
+	border:1px solid red;
+}
 
 
 nav.mainNavigation a:hover{
@@ -155,6 +160,12 @@ button.scrollDownButton{
 	
 }
 
+button.scrollDownButton:hover{
+	background-color: rgba(0,0, 255,.4);
+	border: 1px solid blue;
+	
+}
+
 hr.portfolioTitleHr
 {
 	color:red; /*for IE*/
@@ -237,6 +248,13 @@ hr.recentProjectsTitleHr{
 .btnResumeNav{
 
 	background-color: rgba(0,0, 255,.2);
+	border: 1px solid blue;
+	color:rgba(0,0, 255,0);
+}
+
+.btnResumeNav:hover{
+
+	background-color: rgba(0,0, 255,.4);
 	border: 1px solid blue;
 	color:rgba(0,0, 255,0);
 }

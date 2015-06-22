@@ -46,7 +46,7 @@ nav.mainNavigation li.active.navTechnologiesLi{
 
 
 nav.mainNavigation li.active.navProjectsLi{
-	border-bottom: 5px solid white;
+	border-bottom: 5px solid black;
 }
 
 .navbar-toggle{
@@ -119,6 +119,12 @@ button, button.btn{
 	border:1px solid red;
 }
 
+button:hover, button.btn:hover{
+	background-color: rgba(255,0,0, .7);
+	color:black;
+	border:1px solid red;
+}
+
 
 nav.mainNavigation a:hover{
 	background-color:white;
@@ -164,6 +170,11 @@ span.btnTopTitleSpan{
 
 button.scrollDownButton{
 	background-color: rgba(0,0, 255,.2);
+	border: 1px solid blue;
+	
+}
+button.scrollDownButton:hover{
+	background-color: rgba(0,0, 255,.4);
 	border: 1px solid blue;
 	
 }
@@ -268,6 +279,13 @@ hr.recentProjectsTitleHr{
 .btnResumeNav{
 
 	background-color: rgba(0,0, 255,.2);
+	border: 1px solid blue;
+	color:rgba(0,0, 255,0);
+}
+
+.btnResumeNav:hover{
+
+	background-color: rgba(0,0, 255,.4);
 	border: 1px solid blue;
 	color:rgba(0,0, 255,0);
 }
