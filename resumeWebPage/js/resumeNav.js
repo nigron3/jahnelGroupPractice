@@ -31,7 +31,7 @@ $(document).ready(function(){
 	$('#technicalSkillsLi').click(scrollToTechnicalSkills );
 	$('#experienceLi').click(scrollToExperience );
 	$('#referencesLi').click(scrollToReferenecs );
-
+	
 
 
 	$(document).scroll(function(){
@@ -133,3 +133,4 @@ function AnimateRotate(cog) {
         }
     });
 }
+

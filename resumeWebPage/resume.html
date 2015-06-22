@@ -243,29 +243,27 @@
 					 		<div class='row'>
 						 		<div class='contactFormContainer col-sm-11'>
 
-						 			<form class='contactForm '>
-						 			<div class='textInputContainer col-xs-12 col-sm-12 col-md-6 text-left pull-right'>
-						 					<textarea id='contactFormUsertextInput' class='contactFormUsertextInput'  type='text'>What's on your mind?</textarea>
-						 			</div>
-						 				<div class='userInfoContainer col-sm-6 col-sm-offset-6 col-md-offset-0'>
-						 					<div class='row'>
-						 						<input id='contactFormNameInput' class='contactFormTextInput' type='text' value="Your Name"/>
-						 					</div>
-						 					<div class='row'>
-						 						<input id='contactFormEmailInput' class='contactFormTextInput' type='text' value="Your Email"/>
-						 					</div>
-						 					<div class='row '>
-						 						
-												
-												<span class=' col-xs-4'> 4+4= </span>	
-												<input type ='text'  id='robocheckTextInput' class='robocheck  col-xs-2 ' size='2' > 
-												
-						 	
-						 						<button id='btnContactFormSubmit' class=' btn btnContactFormSubmit col-xs-3  pull-right ' type='button' value='Submit'> Submit</button>
-						 						
-						 					</div>
-						 				</div>
-						 			</form>
+						 			<form class='contactForm ' action="MAILTO:nigron3@gmail.com"  method="post" enctype="text/plain"> <!--action="MAILTO:nigron3@gmail.com" -->
+							 			<div class='textInputContainer col-xs-12 col-sm-12 col-md-6 text-left pull-right'>
+							 					<textarea id='contactFormUsertextInput' class='contactFormUsertextInput'  type='text'>What's on your mind?</textarea>
+							 			</div>
+							 				<div class='userInfoContainer col-sm-6 col-sm-offset-6 col-md-offset-0'>
+							 					<div class='row'>
+							 						<input id='contactFormNameInput' class='contactFormTextInput' type='text' value="Your Name"/>
+							 					</div>
+							 					<div class='row'>
+							 						<input id='contactFormEmailInput' class='contactFormTextInput' type='text' value="Your Email"/>
+							 					</div>
+							 					<div class='row '>	
+													<span  id='contactFormValitationMath' class=' col-xs-4'>  </span>	
+													<input type ='text'  id='robocheckTextInput' class='robocheck  col-xs-2 ' size='2' > 
+													
+							 						<button id='btnContactFormSubmit' class=' btn btnContactFormSubmit col-xs-3  pull-right ' type='submit' value='Submit'> Submit</button>
+							 						
+							 					</div>
+							 				</div>
+							 			</form>
+							 		</div>
 						 		</div>
 					 		</div>
 					 	</article>

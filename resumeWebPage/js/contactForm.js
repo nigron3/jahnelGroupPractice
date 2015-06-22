@@ -3,15 +3,50 @@ $(document).ready(function(){
 
 	$('#btnHide').click(toggleFooter);
 
+	var contactAdd1 =  Math.floor((Math.random() * 100) + 1); 
+	var contactAdd2 =  Math.floor((Math.random() * 100) + 1); 
+	var contactAddSum=contactAdd1 + contactAdd2;
+	$('#contactFormValitationMath').text(contactAdd1 +'+' +contactAdd2);
+	
+
+
 	$('form').submit(function(){
 
-		if($('#robocheckTextInput').val()=='8'){
-			alert('ok');
-			return true;
+
+		if($('#robocheckTextInput').val()==contactAddSum){
+
+			if($('#contactFormNameInput').val() !=='Your Name' && $('#contactFormNameInput').val().length >0 )
+			{
+
+			
+				if($('#contactFormEmailInput').val() !=='Your Email' && $('#contactFormEmailInput').val().length >0)
+				{
+					return true;
+				}
+				else
+				{
+					alert("please enter a valid email");
+					return false;
+				}
+			}
+			else{
+				alert("please enter your name");
+				return false;
+			}
+
+
+
+			
 		}
 		else
 		{
-			alert($('#robocheckTextInput').val());
+			//alert($('#robocheckTextInput').val() +);
+			alert('invalid sum');
+			$('#robocheckTextInput').val('');
+			contactAdd1 =  Math.floor((Math.random() * 100) + 1); 
+			contactAdd2 =  Math.floor((Math.random() * 100) + 1); 
+			$('#contactFormValitationMath').text(contactAdd1 +'+' +contactAdd2);
+			contactAddSum=contactAdd1 + contactAdd2;
 			return false;
 		}
 
@@ -75,3 +110,4 @@ function scrollToBottom() {
 	$("html, body").animate({ scrollTop: $('footer').offset().top + 500}, '2000');
 
 }
+
