@@ -34,7 +34,7 @@ $(document).ready(function(){
 
  	$('#btnScrollTop').click(scrollToTop);
 
-});
+});// end doc ready
 
 
 
@@ -43,14 +43,12 @@ function toggleFooter(){
 		$('footer').slideDown('slow', 
 			function() {$("html, body").animate({ scrollTop: $(document).height() }, "2000");});
 
-
 		$('footer').removeClass('hidden');
 		$('#btnHideTitleSpan').text('Hide');
 		$('#btnHide').html('-');
 		
 	}
 	else{
-		//$('footer').slideUp('slow'  );
 		scrollToBottom();
 		
 		$('#btnHideTitleSpan').text('Contact');
@@ -73,8 +71,7 @@ function scrollToTop() {
 }
 
 function scrollToBottom() {
-
-
+	
 	$("html, body").animate({ scrollTop: $('footer').offset().top + 500}, '2000');
 
 }

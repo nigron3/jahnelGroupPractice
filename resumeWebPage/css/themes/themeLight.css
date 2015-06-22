@@ -27,6 +27,28 @@ body{
 	font-family: 'Lora', serif;
 }
 
+
+/* specific to top navbar */
+nav.mainNavigation li.active.navIndexLi{
+	border-bottom: 5px solid red;
+}
+
+nav.mainNavigation li.active.navResumeLi{
+
+	border-bottom: 5px solid blue;
+}
+
+nav.mainNavigation li.active.navTechnologiesLi{
+	border-bottom: 5px solid yellow;
+}
+
+
+
+
+nav.mainNavigation li.active.navProjectsLi{
+	border-bottom: 5px solid white;
+}
+
 .navbar-toggle{
 	border:1px solid black;
 }
@@ -50,7 +72,6 @@ body{
 
 .midTierCog{
 	color:blue;
-	color:midTierCog;
 	opacity: .3;
 }
 .midTierCog.active{
@@ -143,7 +164,7 @@ span.btnTopTitleSpan{
 
 button.scrollDownButton{
 	background-color: rgba(0,0, 255,.2);
-	border: 1px solid midTierCog;
+	border: 1px solid blue;
 	
 }
 
@@ -161,13 +182,13 @@ hr.developerNameHr{
 }
 
 hr.developerTownHr{
-	color:midTierCog;
-	border-color:midTierCog;
+	color:blue;
+	border-color:blue;
 }
 
 hr.developerProfileTextTitleHr{
-	color:midTierCog;
-	border-color:midTierCog;
+	color:blue;
+	border-color:blue;
 }
 
 
@@ -232,11 +253,11 @@ hr.recentProjectsTitleHr{
 
 
 .projectPreviewLeftDiv{
-	border: 2px solid midTierCog;
+	border: 2px solid blue;
 }
 
 .projectPreviewRightDiv{
-	border: 2px solid midTierCog;
+	border: 2px solid blue;
 }
 
 
@@ -247,7 +268,7 @@ hr.recentProjectsTitleHr{
 .btnResumeNav{
 
 	background-color: rgba(0,0, 255,.2);
-	border: 1px solid midTierCog;
+	border: 1px solid blue;
 	color:rgba(0,0, 255,0);
 }
 
@@ -263,7 +284,7 @@ hr.resumeContentHr
 }
 
 h4.resumeContentHeaderTitle{
-	color:midTierCog;
+	color:blue;
 }
 
 h3.resumeContentSectionTextTitle{
@@ -277,7 +298,7 @@ h3.resumeContentSectionTextTitle{
 nav.projectExampleTechnologyPillsNav li a{
 	color:black;	
 	background-color:rgba(0,0,255, .2);
-	border:solid 2px midTierCog;
+	border:solid 2px blue;
 }
 
 
@@ -314,7 +335,7 @@ hr.exampleDescriptionTitleHr{
 }
 
 .exampleAreaTitleContainer span{
-	color:midTierCog;
+	color:blue;
 }
 
 .exampleCodeContainer{
@@ -326,7 +347,7 @@ hr.exampleDescriptionTitleHr{
 
 .exampleDescriptionTextFooterDiv{
 	background-color:rgba(0,0,255,.2);
-	border: 1px solid midTierCog;
+	border: 1px solid blue;
 	
 }
 

@@ -1,5 +1,12 @@
 $(document).ready(function(){
 
+console.log(5 + 6);
+
+
+//console.log( $.get('test.json'));
+console.log($.getJSON('/js/test.json',function(){console.log('hi');}));
+
+
 	if(!localStorage.getItem('themeFile'))
 	{
 		var cssId = 'themeCss';  // you could encode the css path itself to generate id..

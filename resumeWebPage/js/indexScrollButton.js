@@ -1,6 +1,6 @@
 $(document).ready(function(){
 
-$('#scrollDownButton').click(scrollToAnchor)
+	$('#scrollDownButton').click(scrollToAnchor)
 
 });
 
@@ -8,7 +8,6 @@ $('#scrollDownButton').click(scrollToAnchor)
 function scrollToAnchor () {
 
 	var body = $("body");
-	
-	
-	  body.animate({scrollTop:$('#scrollDownButton').offset().top}, '500');
+
+	 body.animate({scrollTop:$('#scrollDownButton').offset().top}, '500');
 }

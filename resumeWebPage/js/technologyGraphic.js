@@ -1,10 +1,11 @@
 $(document).ready(function(){
 
-$('#technologySkillSetGraphicContainer').on('click', '.technologySkillSetGraphicUserInterfaceDiv', veiwUIPills);
-$('#technologySkillSetGraphicContainer').on('click', '.technologySkillSetGraphicMidTierDiv', viewMidTier);
-$('#technologySkillSetGraphicContainer').on('click', '.technologySkillSetGraphicDatabaseDiv', veiwDatabase);
+	$('#technologySkillSetGraphicContainer').on('click', '.technologySkillSetGraphicUserInterfaceDiv', veiwUIPills);
+	$('#technologySkillSetGraphicContainer').on('click', '.technologySkillSetGraphicMidTierDiv', viewMidTier);
+	$('#technologySkillSetGraphicContainer').on('click', '.technologySkillSetGraphicDatabaseDiv', veiwDatabase);
 
-});
+});// end doc ready
+
 
 
 function veiwUIPills() {

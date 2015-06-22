@@ -7,16 +7,13 @@ $(document).ready(function(){
 
 function toggleNavigation(){
 
-
-
 	if($('#technologyPillsUL').hasClass('collapse'))
 	{
-	$('#technologyPillsUL').removeClass('collapse');	
+		$('#technologyPillsUL').removeClass('collapse');	
 	}
 	else
 	{
-		$('#technologyPillsUL').addClass('collapse');
-		
+		$('#technologyPillsUL').addClass('collapse');	
 	}
 	
 
